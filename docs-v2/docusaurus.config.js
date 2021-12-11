@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Rin Docs',
   tagline: 'The Second Version of The Documentation of Rin',
-  url: 'https://admiring-brattain-b9adf7.netlify.app/',
+  url: 'https://docs.rinbot.live',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,7 +39,7 @@ const config = {
       navbar: {
         title: 'Rin Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Rin's Logo,
           src: 'img/better_logo.png',
         },
         items: [
