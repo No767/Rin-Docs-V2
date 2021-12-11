@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Rin Docs',
   tagline: 'The Second Version of The Documentation of Rin',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.rinbot.live',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -51,8 +51,8 @@ const config = {
           },
           {
             href: 'https://github.com/No767/Rin-Docs-V2',
-            label: 'GitHub',
             position: 'right',
+            label: 'GitHub',
           },
         ],
       },

@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title} - Rin Docs`}
-      description="Description will go into a meta tag in <head />">
+      description="Rin is a Discord bot focused on obtaining data from third-party services. Supports DeviantArt, MangaDex, MyAnimeList, and much much more.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
