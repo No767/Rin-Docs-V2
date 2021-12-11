@@ -39,7 +39,7 @@ const config = {
       navbar: {
         title: 'Rin Docs',
         logo: {
-          alt: 'Rin's Logo,
+          alt: "Rin's Logo",
           src: 'img/better_logo.png',
         },
         items: [
