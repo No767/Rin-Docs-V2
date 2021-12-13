@@ -8,6 +8,8 @@
 
 V2 of Rin Docs
 
+<div align=left>
+  
 # Building
 
 This doc is built with Docusaurus. The docs files are under `./docs-v2`. If you wish to use a live server in order to check, make sure you have Node, npm or yarn installed.
