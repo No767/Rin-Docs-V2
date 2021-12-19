@@ -16,7 +16,7 @@ sidebar_position: 3
 | Advice Slip | Yes | Completed |
 | Waifu.Pics | Yes | Completed |
 | Spiget | Yes | Completed |
-| DeviantArt               | Semi (Due to token refresher)          | Completed      |  |
+| DeviantArt               | Yes         | Completed      |  |
 | Top.gg               | Yes            | Completed      |  |
 | Pinterest             |  Yes            | Complete     | Not recommended to use since it only looks up for pins and boards of the logged on user |
 | Spotify               |  Maybe           | 30% done | Playback not possible since it requires a premium account |
