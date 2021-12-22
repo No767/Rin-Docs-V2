@@ -23,6 +23,7 @@ Welcome! This is the current documentation for Rin, a Discord bot focused on obt
 ### Terms of Services
 
 - [Art Assets](./terms-of-services/art-assets.md)
+- [Privacy Policy](./terms-of-services/privacy-policy.md)
 
 ### About
 
