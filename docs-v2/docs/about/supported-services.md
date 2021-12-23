@@ -4,7 +4,7 @@ sidebar_position: 3
 ---
 
 # Supported Services
-| Services Supported/Planned | Support Status | Completion Status | Notes | Asnyc? |
+| Services Supported/Planned | Support Status | Completion Status | Notes | *Asnyc? |
 |        :--:           |     :--:       |    :--:   |        :--: | :--: |
 | Hypixel               | Yes            | Completed       | | Yes |
 | Jisho                 | Yes            | Completed | Still need to figure out how to filter out the numbers | No |
@@ -24,3 +24,5 @@ sidebar_position: 3
 | Twitch                | No             | Not Started/Planned |  | N/A |
 | YouTube | No | Not Started/Planned | | N/A |
 | Twitter               | No            |0% done | Requires complete rewrite | N/A |
+
+*Note: Async refers to how the code is being executed. If the cog is considered async, it means that it is using AIOHTTP over Requests, thus greatly improving performance.

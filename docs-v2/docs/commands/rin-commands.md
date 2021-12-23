@@ -11,7 +11,7 @@ sidebar_position: 2
 
 Provides a list of commands that can be used
 
-**Parameters**: None. Sections can be accessed by typing `.rinhelp [section]`. The section names are displayed on the rinhelp homepage page.
+**Parameters**: None (optional). Sections can be accessed by typing `.rinhelp [section]`. The section names are displayed on the rinhelp homepage page.
 
 ## `.rininfo`
 
@@ -23,9 +23,7 @@ Provides basic info for what the bot does.
 
 Provides some support... This is meant to say you're valid.
 
-**Parameters**:
-
-- keyword/name - usually a name goes better with this
+**Parameters**: name (usually a name goes better with this)
 
 ## `.ping`
 
@@ -43,17 +41,13 @@ Performs a search on memes on reddit. Picks from a certain list of words + meme.
 
 Find trans-related memes
 
-**Parameters**:
-
-- keyword - the keyword being used to search reddit via praw
+**Parameters**: None
 
 ## `.reddit`
 
 Performs a search on reddit.
 
-**Parameters**:
-
-- keyword/subreddit - For subreddit, include the "r/" prefix as well
+**Parameters**: keyword/subreddit - For subreddit, include the "r/" prefix as well
 
 
 ## `.botinfo`
@@ -106,18 +100,13 @@ Performs a search on Twitter.
 
 Pings everyone on the server with a message
 
-**Parameters**:
-
-- amount of pings - int
-- keyword - the message to ping everyone with
+**Parameters**: None
 
 ## `.iguserinfo`
 
 Finds and extracts user info for that account
 
-**Parameters**:
-
-- client id - *Client ID of the user
+**Parameters**: *Client ID of the user
 
 *Note: In order to find the Client ID, you will need to use [this](https://codeofaninja.com/tools/find-instagram-user-id/) website, and input the username you want. Then the number is labeled under "profilePage".
 
@@ -125,41 +114,31 @@ Finds and extracts user info for that account
 
 Finds users with that username. Will only show the first result of each search.
 
-**Parameters**:
-
-- keyword - The user you are searching for
+**Parameters**: The user you are searching for
 
 ## `.igtaginfo`
 
 Extracts info about the tag
 
-**Parameters**:
-
-- keyword - The tag that you want to search for
+**Parameters**: The tag that you want to search for
 
 ## `.igusernamecheck`
 
 Checks if the Instagram username is taken or not
 
-**Parameters**:
-
-- keyword - The username that you want to check
+**Parameters**: The username that you want to check
 
 ## `.iguserfeed`
 
 Shows the first post of the selected user's profile feed
 
-**Parameters**:
-
-- Client ID - Requires Client ID in order to work
+**Parameters**: Client ID (Requires Client ID in order to work)
 
 ## `.jisho`
 
 Searches up Japanese terms and words along with the English meaning. Uses [Jisho](https://jisho.org/) in order to fetch the data. (Uses the API in order to do so) and JMDict to process the kanji, hiragana, and katakana
 
-**Parameters**:
-
-- keyword - The term that you want to search for. Can be in both Japanese and English
+**Parameters**: The term that you want to search for. Can be in both Japanese and English
 
 ## `.serverinfo`
 
@@ -171,9 +150,7 @@ Shows server info
 
 Clears number of messages specified from the channel that the command was called in
 
-**Parameters**:
-
-- keyword - The number of messages to clear
+**Parameters**: The number of messages to clear (int)
 
 ## `.javamcsrv`
 
@@ -181,9 +158,7 @@ Alias - `.java`
 
 Provides info about a minecraft server (java) of your choice
 
-**Parameters**:
-
-- keyword - The server's domain name
+**Parameters**: The server's domain name
 
 ## `.bedrockmcsrv`
 
@@ -191,9 +166,7 @@ Alias - `.bedrock`
 
 Provides info about a minecraft server (bedrock) of your choice
 
-**Parameters**:
-
-- keyword - The server's domain name
+**Parameters**: The server's domain name
 
 ## `.waifu`
 
@@ -203,16 +176,11 @@ Randomly selects a waifu for you
 
 ## `.waifupics`
 
+Alias - `.wp`
+
 Randomly gives you a waifu using WaifuPic's API
 
 **Parameters**: None
-
-## `.mute`
-
-Mutes the specified user.
-
-**Parameters**: keyword - the user that you wish to mute
-
 
 ## `.advice`
 
@@ -224,19 +192,7 @@ Returns some advice from Advice Slip
 
 Searches for Spigot resources and returns info regarding the resource info given
 
-**Parameters**: keyword - What plugin you wish to search. Make sure this is the same name as what is in the title of the actual plugin. For example, if I wanted to search for FAWE, I would put Fast Async WorldEdit instead
-
-## `.ban`
-
-Bans the specified user.
-
-**Parameters**: keyword - user that you wish to ban
-
-## `.spiget-author`
-
-Searches for the given author and returns name and resources from the author.
-
-**Parameters**: keyword - The author that you wish to search for
+**Parameters**: What plugin you wish to search. Make sure this is the same name as what is in the title of the actual plugin. For example, if I wanted to search for `FAWE`, I would put `Fast Async WorldEdit` instead
 
 ## `.spiget-stats`
 
@@ -254,7 +210,7 @@ Returns HTTP status of the Spiget API
 
 Gain Insight in Hypixel's player data
 
-**Parameters**: keyword - UUID of the player
+**Parameters**: UUID of the player
 
 ## `.hypixelcount`
 
@@ -266,13 +222,13 @@ Obtains the amount of players online within the servers
 
 Determines if the player is online or offline
 
-**Parameters**: keyword - UUID of the player
+**Parameters**: UUID of the player
 
 ## `.skywarsinfo`
 
 Get the position and score of the player within **ranked** skywars
 
-**Parameters**: keyword - UUID of the player
+**Parameters**: UUID of the player
 
 ## `.jikan-anime`
 
@@ -395,3 +351,23 @@ Alias - `.pt-user`
 Returns info about the user that is logged on
 
 **Parameter**: None
+
+## `.mylvl`
+
+Returns the current level for the DisQuest cog
+
+**Parameters**: None
+
+## `.globalrank`
+
+Alias - `.grank`
+
+Returns the global rank of the player for the DisQuest cog
+
+**Parameters**: None
+
+## `.rank`
+
+Returns the current rank of the user within the server for the DisQuest cog
+
+**Parameters**: None

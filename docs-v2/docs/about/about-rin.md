@@ -11,7 +11,8 @@ Rin is a Discord bot focused on obtaining data from third-party services. Rin cu
 
 - [GitHub](https://github.com/No767/Rin)
 - [Website](https://rinbot.live)
-- [Docs](https://rin-docs.readthedocs.io/en/latest)
+- [Docs](https://docs.rinbot.live)
+- [Status Tracker](https://status.rinbot.live)
 
 ### Credits
 
