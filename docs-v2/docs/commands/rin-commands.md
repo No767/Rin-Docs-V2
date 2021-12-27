@@ -371,3 +371,11 @@ Returns the global rank of the player for the DisQuest cog
 Returns the current rank of the user within the server for the DisQuest cog
 
 **Parameters**: None
+
+## `.twitter-search`
+
+Alias - `.ts`
+
+Searches for 5 most recent tweets from the given user
+
+**Parameters**: Twitter Username (without the @ symbol)

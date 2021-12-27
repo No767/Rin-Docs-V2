@@ -21,8 +21,8 @@ sidebar_position: 3
 | Pinterest             |  Yes            | Complete     | Not recommended to use since it only looks up for pins and boards of the logged on user | No |
 | Spotify               |  Maybe           | 30% done | Playback not possible since it requires a premium account | No |
 | MangaDex              | No          | 30% done | MangaDex Reader still in the works | Yes |
+| Twitter               | No            | 10% done | Uses the v1.1 API, not the v2 API | Yes |
 | Twitch                | No             | Not Started/Planned |  | N/A |
 | YouTube | No | Not Started/Planned | | N/A |
-| Twitter               | No            |0% done | Requires complete rewrite | N/A |
 
-*Note: Async refers to how the code is being executed. If the cog is considered async, it means that it is using AIOHTTP over Requests, thus greatly improving performance.
+*Note: Async refers to how the code is being executed. It's referring to asynchronous code. If the cog is considered async, it means that it is using AIOHTTP over Requests, thus greatly improving performance. For more info about asynchronous code in Python (asyncio), check out the [docs](https://docs.python.org/3/library/asyncio.html)
