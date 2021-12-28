@@ -19,9 +19,9 @@ sidebar_position: 3
 | DeviantArt               | Yes         | Completed      |  | Yes |
 | Top.gg               | Yes            | Completed      | | Yes |
 | Pinterest             |  Yes            | Complete     | Not recommended to use since it only looks up for pins and boards of the logged on user | No |
+| Twitter               | Yes            | Completed | Uses the v1.1 API, not the v2 API | Yes |
 | Spotify               |  Maybe           | 30% done | Playback not possible since it requires a premium account | No |
 | MangaDex              | No          | 30% done | MangaDex Reader still in the works | Yes |
-| Twitter               | No            | 10% done | Uses the v1.1 API, not the v2 API | Yes |
 | Twitch                | No             | Not Started/Planned |  | N/A |
 | YouTube | No | Not Started/Planned | | N/A |
 

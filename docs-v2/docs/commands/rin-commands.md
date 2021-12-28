@@ -379,3 +379,11 @@ Alias - `.ts`
 Searches for 5 most recent tweets from the given user
 
 **Parameters**: Twitter Username (without the @ symbol)
+
+## `.twitter-user`
+
+Alias - `.tu`
+
+Returns info about the given user
+
+**Parameters**: Twitter Username (without the @ symbol)
