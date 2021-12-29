@@ -80,22 +80,6 @@ Performs a broadcast using the Global chat system. Use with caution.
 
 **Parameters**: None. Requires input after running the cmd.
 
-## `.rtupdatestatus`
-
-Updates the status of the Twitter User.
-
-**Parameters**:
-
-- update message - The message you want to send to update the status on your twitter account.
-
-## `.rtsearch`
-
-Performs a search on Twitter.
-
-**Parameters**:
-
-- keyword - Used to determine the search
-
 
 ## `.iguserinfo`
 
@@ -424,4 +408,4 @@ Alias -`.yt-video`
 
 Returns info about the given video
 
-**Parameters**: *Video ID
+**Parameters**: Video ID
