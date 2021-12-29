@@ -96,11 +96,6 @@ Performs a search on Twitter.
 
 - keyword - Used to determine the search
 
-## `.pinger`
-
-Pings everyone on the server with a message
-
-**Parameters**: None
 
 ## `.iguserinfo`
 
@@ -387,3 +382,46 @@ Alias - `.tu`
 Returns info about the given user
 
 **Parameters**: Twitter Username (without the @ symbol)
+
+## `.youtube-search`
+
+Alias - `.yt-search`
+
+Returns 5 videos given the search query
+
+**Parameters**: Search Query
+
+## `.youtube-channel`
+
+Alias - `.yt-channel`
+
+Returns info about the given channel
+
+**Parameters**: Channel Name
+
+## `.youtube-playlists`
+
+Alias - `.yt-playlists`
+
+Finds and returns 5 playlists from the given channel
+
+**Parameters**: Channel Name
+
+## `.youtube-comments`
+
+Alias - `.yt-comments`
+
+Returns 5 comments (sorted by time) from the given video
+
+
+**Parameters**: *Video ID
+
+*Note: You can find the Video ID in the link of each youtube video. For example, the video id of `dQw4w9WgXcQ` can be put into a link like this: `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
+
+## `.youtube-video`
+
+Alias -`.yt-video`
+
+Returns info about the given video
+
+**Parameters**: *Video ID
