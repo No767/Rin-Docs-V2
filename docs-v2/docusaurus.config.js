@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/No767/Rin-Docs-V2/tree/master/docs',
+          editUrl: 'https://github.com/No767/Rin-Docs-V2/tree/master/docs-v2',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
