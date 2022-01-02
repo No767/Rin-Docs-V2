@@ -409,3 +409,61 @@ Alias -`.yt-video`
 Returns info about the given video
 
 **Parameters**: Video ID
+
+## `.mangadex-search`
+
+Alias - `.md-search`
+
+Searches for manga on MangaDex
+
+**Parameters**: Manga Name
+
+## `.mangadex-random`
+
+Alias - `.md-random`
+
+Returns a random manga from MangaDex
+
+**Parameters**: None
+
+## `.mangadex-scanlation-search`
+
+Alias - `.md-ss`
+
+Returns info about a scanlation group. This is done via the names, and may be a little bit inaccurate. 
+
+**Parameters**: Scanlation Group Name
+
+## `.mangadex-scanlation-id` 
+
+Alias - `.md-si` 
+
+Returns info about a scanlation group. This is done via the ID given to each scanlation group. 
+
+**Parameters**: *Scanlation Group ID
+
+*Note: You can find the ID of each group by going to groups, and searching for the scanlation group name. For example, this ID (`bbe59625-47af-48d0-be93-dbba6a0b105f`) will return the scanlation group Hachirumi Scans
+
+## `.mangadex-user`
+
+Alias - `.md-user` 
+
+Returns info about the given user
+
+**Parameters**: User ID
+
+## `.mangadex-author`
+
+Alias - `.md-author`
+
+Returns info about the given author
+
+**Parameters**: Author Name
+
+## `.mangadex-author-id` 
+
+Alias - `.md-author-id`
+
+Returns info about the given author via the given author ID
+
+**Parameters**: Author ID
