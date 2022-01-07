@@ -14,13 +14,13 @@ V2 of Rin Docs
 
 This doc is built with Docusaurus. The docs files are under `./docs-v2`. If you wish to use a live server in order to check, make sure you have Node, npm or yarn installed.
 
-- npm:
+npm:
 
 ```sh
 cd docs-v2 && npx docusaurus start
 ```
 
-- yarn:
+yarn:
 
 ```sh
 cd docs-v2 && yarn run start
