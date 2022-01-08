@@ -10,7 +10,7 @@ sidebar_position: 3
 | Jisho                 | Yes            | Completed | Still need to figure out how to filter out the numbers | No |
 | MCSrvStats            | Yes            |    Completed    | | Yes |
 | Instagram             |  Yes           |     Completed  |  | No |
-| MyWaifuList           |   Yes          |     Completed   | | No |
+| MyWaifuList           |   Yes          |     Completed   | | Yes |
 | Reddit                |     Yes        | Completed       | | No |
 | MyAnimeList/Jikan           | Yes           | Complete |    | Yes |
 | Advice Slip | Yes | Completed | | Yes |
