@@ -11,7 +11,7 @@ sidebar_position: 3
 | MCSrvStats            | Yes            |    Completed    | | Yes |
 | Instagram             |  Yes           |     Completed  |  | No |
 | MyWaifuList           |   Yes          |     Completed   | | Yes |
-| Reddit                |     Yes        | Completed       | | No |
+| Reddit                |     Yes        | Completed       || Yes |
 | MyAnimeList/Jikan           | Yes           | Complete |    | Yes |
 | Advice Slip | Yes | Completed | | Yes |
 | Waifu.Pics | Yes | Completed | | Yes |
