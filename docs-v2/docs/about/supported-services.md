@@ -26,4 +26,4 @@ sidebar_position: 3
 | MangaDex              | No          | 90% done | MangaDex Reader still in the works | Yes |
 | Twitch                | No             | Not Started/Planned |  | N/A |
 
-*Note: Async refers to how the code is being executed. It's referring to asynchronous code. If the cog is considered async, it means that it is using AIOHTTP over Requests, thus greatly improving performance. For more info about asynchronous code in Python (asyncio), check out the [docs](https://docs.python.org/3/library/asyncio.html)
+*Note: Async refers to how the code is being executed. It's referring to asynchronous code. If the cog is considered async, it means that it is using AIOHTTP over Requests, thus greatly improving performance. For more info about asynchronous code in Python (asyncio), check out the [docs](https://docs.python.org/3/library/asyncio.html). Note that future versions of Rin (v1.4.0 and higher) will use Uvloop instead of asyncio, which should increase performance and matches the same performance as Node.js and bots written with Discord.js

@@ -27,6 +27,38 @@ If you haven't set up the Pipenv yet, run this in the root directory of the git 
 
 `pipenv --python 3.10`
 
+## Uvloop 
+
+Rin will start using uvloop as a replacement for asyncio, and uvloop can reach speeds similar to Node.js. For developing, follow the prompts below:
+
+### Windows 
+
+1. Install WSL2  (Go for Ubuntu since this is what I'm currently using for WSL)
+2. Install Python 3.10.x (Compile it from the source). If you need help, refer to the [docs](https://docs.python.org/3/using/unix.html) or this [article](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
+3. Make sure that Python and Pip are now using the Python 3.10.x version. You may also want to set aliases for them at this stage
+4. Install Pipenv
+5. Run `pipenv --python 3.10`
+6. Install All Dependencies 
+7. Make sure that your interpreter is set to the location of the Linux pipenv. This will use uvloop since uvloop is not supported on windows nor does the owner wishes to bring support to windows
+
+If you want to execute the code, make sure to run it with Bash or WSL instead. And as a side note, it is a good idea to set a network drive for your WSL installation in order to easily manage your files. (Guide [here](https://gunnarpeipman.com/browse-wsl-with-explorer/))
+
+### Linux
+
+1. Compile Python 3.10.x from source. If you need help, refer to the [docs](https://docs.python.org/3/using/unix.html) or this [article](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
+2. Make sure that Python and Pip are now using the Python 3.10.x version. You may also want to set aliases for them at this stage
+3. Install Pipenv
+4. Run `pipenv --python 3.10`
+5. Install All Dependencies
+
+
+### MacOS
+
+1. Install Python 3.10.x
+2. Install Pipenv
+3. Run `pipenv --python 3.10`
+4. Install All Dependencies
+
 ## Pull Requests and Commits
 
 You have 2 option: Fork the repo and make a pull request back into the main one, or commit to the branch directly. Option 2 is preferred.
