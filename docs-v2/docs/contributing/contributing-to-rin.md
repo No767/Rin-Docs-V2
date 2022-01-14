@@ -9,56 +9,109 @@ We are glad that you're willing to contribute to this project. We are usually ve
 
 ## Requirements
 
-To get started, you'll need these things installed:
+To get started, you'll need these things installed: 
 
-- Git
-- Python 3.10.x
-- Pipenv
+- [Git](https://git-scm.com/)
+- [Python 3.10](https://www.python.org/)
+- [Pipenv](https://pipenv.pypa.io/en/latest/)
+- [WSL](https://docs.microsoft.com/en-us/windows/wsl/) (If working on Windows)
 
 ## Installing Dependencies
 
-All of the dependencies can be found within `Pipfile` and `Pipfile.lock`, and requires Pipenv in order to be installed.  Git can be found [here](https://git-scm.com/). Python can be also found at its website ([Python's Official Website](https://www.python.org/)). Pipenv can be found [here](https://pipenv.pypa.io/en/latest).
+Getting the environment set up for the bot is a kinda complex process. Rin now uses [Uvloop](https://github.com/MagicStack/uvloop), which is a drop-in replacement for [Asyncio](https://docs.python.org/3/library/asyncio.html) and is just as fast as Node.js. If you want to get set up, here are the instructions to do so:
+### Windows
 
-Your only option is via [Pipenv](https://pipenv.pypa.io/en/latest/)
+1. Install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/). Uvloop does not have Windows support nor does the owner want to add it.
+2. Make sure to install LZMA (If on Debian/Ubuntu). The `Jamdict-Data` package requires it to unpack the SQLite3 DB. To do so, run this command:
 
-`pipenv install`
+```sh
+sudo apt-get install liblzma-dev lzma
+```
 
-If you haven't set up the Pipenv yet, run this in the root directory of the git repository: 
+3. Compile Python 3.10 from source. If you need a guide, [here's](https://realpython.com/installing-python/#how-to-build-python-from-source-code) one. Note that this guide is for Ubuntu 20.04, so depending on your distro, it may be different.
+4. Install [Pipenv](https://pipenv.readthedocs.io/en/latest/). To do so, run this command:
 
-`pipenv --python 3.10`
+```sh
+sudo python3.10 -m pip install --upgrade pipenv
+```
 
-## Uvloop 
+5. Clone this repo.
+6. Create the Pipenv. To do so, run this command: 
 
-Rin will start using uvloop as a replacement for asyncio, and uvloop can reach speeds similar to Node.js. For developing, follow the prompts below:
+```sh
+pipenv --python 3.10
+```
 
-### Windows 
+7. `cd` into the cloned repo and install all the dependencies by running this command:
 
-1. Install WSL2  (Go for Ubuntu since this is what I'm currently using for WSL)
-2. Install Python 3.10.x (Compile it from the source). If you need help, refer to the [docs](https://docs.python.org/3/using/unix.html) or this [article](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
-3. Make sure that Python and Pip are now using the Python 3.10.x version. You may also want to set aliases for them at this stage
-4. Install Pipenv
-5. Run `pipenv --python 3.10`
-6. Install All Dependencies 
-7. Make sure that your interpreter is set to the location of the Linux pipenv. This will use uvloop since uvloop is not supported on windows nor does the owner wishes to bring support to windows
+```sh
+pipenv install
+```
+8. (Optional) If you are using PyCharm, make sure to set the Python Interpreter to WSL and specify the Python interpreter to use. For this, the file path will be usually here:
 
-If you want to execute the code, make sure to run it with Bash or WSL instead. And as a side note, it is a good idea to set a network drive for your WSL installation in order to easily manage your files. (Guide [here](https://gunnarpeipman.com/browse-wsl-with-explorer/))
+```sh
+$HOME/.local/share/virtualenvs/[Project Name]/bin/python3.10
+```
+
+Or if you using VS Code, install the [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) Extension for VS Code, and follow steps 1-6. Then connect to WSL. 
 
 ### Linux
 
-1. Compile Python 3.10.x from source. If you need help, refer to the [docs](https://docs.python.org/3/using/unix.html) or this [article](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
-2. Make sure that Python and Pip are now using the Python 3.10.x version. You may also want to set aliases for them at this stage
-3. Install Pipenv
-4. Run `pipenv --python 3.10`
-5. Install All Dependencies
+1. Make sure to install LZMA (If on Debian/Ubuntu). The `Jamdict-Data` package requires it to unpack the SQLite3 DB. To do so, run this command:
 
+```sh
+sudo apt-get install liblzma-dev lzma
+```
+
+If you are on a different distro that doesn't use `apt` like CentOS, install LZMA like so: 
+
+```sh
+yum install -y xz-devel
+```
+
+2. Compile Python 3.10 from source. If you need a guide, [here's](https://realpython.com/installing-python/#how-to-build-python-from-source-code) one. 
+3. Install [Pipenv](https://pipenv.readthedocs.io/en/latest/). To do so, run this command:
+
+```sh
+sudo python3.10 -m pip install --upgrade pipenv
+```
+
+4. Clone this repo.
+5. Create the Pipenv. To do so, run this command: 
+
+```sh
+pipenv --python 3.10
+```
+
+6. `cd` into the cloned repo and install all the dependencies by running this command:
+
+```sh
+pipenv install
+```
 
 ### MacOS
 
-1. Install Python 3.10.x
-2. Install Pipenv
-3. Run `pipenv --python 3.10`
-4. Install All Dependencies
+**Note that I have not tested MacOS yet. If you find any errors, please let me know by submitting a GitHub Issue Report.**
 
+1. Install Python 3.10. This can be installed with the installer or compiled from source (Or use Homebrew). Either way it doesn't matter. 
+2. Install [Pipenv](https://pipenv.readthedocs.io/en/latest/). To do so, run this command:
+
+```sh
+python -m pip install --upgrade pipenv
+```
+
+3. Clone this repo. 
+4. Create the Pipenv. To do so, run this command: 
+
+```sh
+pipenv --python 3.10
+```
+
+5. `cd` into the cloned repo and install all the dependencies by running this command:
+
+```sh
+pipenv install
+```
 ## Pull Requests and Commits
 
 You have 2 option: Fork the repo and make a pull request back into the main one, or commit to the branch directly. Option 2 is preferred.
