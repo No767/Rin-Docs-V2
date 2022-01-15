@@ -7,7 +7,7 @@ sidebar_position: 3
 | Services Supported/Planned | Support Status | Completion Status | Notes | *Asnyc? |
 |        :--:           |     :--:       |    :--:   |        :--: | :--: |
 | Hypixel               | Yes            | Completed       | | Yes |
-| Jisho                 | Yes            | Completed | Still need to figure out how to filter out the numbers | No |
+| Jisho                 | Yes            | Completed |  | Yes |
 | MCSrvStats            | Yes            |    Completed    | | Yes |
 | Instagram             |  Yes           |     Completed  |  | No |
 | MyWaifuList           |   Yes          |     Completed   | | Yes |
@@ -26,4 +26,4 @@ sidebar_position: 3
 | MangaDex              | No          | 90% done | MangaDex Reader still in the works | Yes |
 | Twitch                | No             | Not Started/Planned |  | N/A |
 
-*Note: Async refers to how the code is being executed. It's referring to asynchronous code. If the cog is considered async, it means that it is using AIOHTTP over Requests, thus greatly improving performance. For more info about asynchronous code in Python (asyncio), check out the [docs](https://docs.python.org/3/library/asyncio.html)
+*Note: Async refers to how the code is being executed. It's referring to asynchronous code. If the cog is considered async, it means that it is using AIOHTTP over Requests, thus greatly improving performance. For more info about asynchronous code in Python (asyncio), check out the [docs](https://docs.python.org/3/library/asyncio.html). Note that Rin (and Kumiko) use Uvloop, which is a drop-in replacement to asyncio and makes asyncio 2 to 4 times faster (and it's also just as fast as Node.js)
