@@ -9,17 +9,16 @@ We are glad that you're willing to contribute to this project. We are usually ve
 
 ## Requirements
 
-To get started, you'll need these things installed:
+To get started, you'll need these things installed: 
 
 - [Git](https://git-scm.com/)
 - [Python 3.10](https://www.python.org/)
 - [Pipenv](https://pipenv.pypa.io/en/latest/)
 - [WSL](https://docs.microsoft.com/en-us/windows/wsl/) (If working on Windows)
 
-## Getting the Enviroment Set Up
+## Installing Dependencies
 
 Getting the environment set up for the bot is a kinda complex process. Rin now uses [Uvloop](https://github.com/MagicStack/uvloop), which is a drop-in replacement for [Asyncio](https://docs.python.org/3/library/asyncio.html) and is just as fast as Node.js. If you want to get set up, here are the instructions to do so:
-
 ### Windows
 
 1. Install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/). Uvloop does not have Windows support nor does the owner want to add it.
