@@ -467,3 +467,9 @@ Alias - `.md-author-id`
 Returns info about the given author via the given author ID
 
 **Parameters**: Author ID
+
+## `.uptime`
+
+Returns the amount of time that Rin has been active
+
+**Parameters**: None
