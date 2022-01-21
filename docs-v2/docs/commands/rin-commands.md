@@ -58,6 +58,8 @@ Shows Bot info.
 
 ## `.translate`
 
+**Note that this cmd has been disabled in case if Discord bot verifiers wish to exploit this cmd**
+
 Translates a string or message.
 
 **Parameters**: None. Requires input after running cmd.
