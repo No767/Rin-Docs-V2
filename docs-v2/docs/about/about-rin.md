@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # About Rin
 
-Rin is a Discord bot focused on obtaining data from third-party services. Rin currently supports MyAnimeList, Hypixel, DeviantArt, and many more. For example, you can fetch data about your favorite manga or anime, or fetch some memes from Reddit. Rin is also focused on speed, providing the content within seconds powered by AIOHTTP, Orjson and Uvloop. For more information on what services are currently supported, refer to the [Supported Services](./supported-services.md) page.
+Rin is a Discord bot focused on obtaining data from third-party services. Rin currently supports MyAnimeList, Hypixel, DeviantArt, and many more. For example, you can fetch data about your favorite manga or anime, or fetch some memes from Reddit. Rin is also focused on speed, providing the content within seconds powered by AIOHTTP and Orjson. Under the hood, Rin uses [Uvloop](https://github.com/MagicStack/uvloop), which makes Rin 2 times faster than Node.js. For more information on what services are currently supported, refer to the [Supported Services](./supported-services.md) page.
 
 ### Links
 
