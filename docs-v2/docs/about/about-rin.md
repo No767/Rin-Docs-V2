@@ -18,7 +18,7 @@ Rin is a Discord bot focused on obtaining data from third-party services. Rin cu
 
 Core Maintainer and Original Creator of Rin: [No767](https://github.com/No767)
 
-Original Creator of EasyBot.py and EasyBot Plugins: [Chisaku-dev](https://github.com/chisaku-dev)
+Original Creator of EasyBot.py and EasyBot Plugins: [Isaac-To](https://github.com/Isaac-To)
 
 Contributors: 
 - [Kenneth Sequeira](https://github.com/kennethsequeira) (@kennethsequeira)
