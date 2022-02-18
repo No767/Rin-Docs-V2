@@ -54,6 +54,10 @@ const config = {
             position: 'right',
             label: 'GitHub',
           },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+          },
         ],
       },
       footer: {
