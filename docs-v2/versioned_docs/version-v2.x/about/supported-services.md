@@ -18,7 +18,6 @@ sidebar_position: 3
 | Spiget | Yes | Completed | | Yes |
 | DeviantArt               | Yes         | Completed      |  | Yes |
 | Top.gg               | Yes            | Completed      | | Yes |
-| Pinterest             |  Yes            | Complete     | Not recommended to use since it only looks up for pins and boards of the logged on user | Yes |
 | Twitter               | Yes            | Completed | Uses the v1.1 API, not the v2 API | Yes |
 | YouTube | Yes | Completed | | Yes |
 | Tenor | Yes | Completed | | Yes |
@@ -30,4 +29,4 @@ sidebar_position: 3
 | AniList | No | Not Started/Planned | Will have to use GraphQL for AniList | N/A |
 | Spotify               |  No           | 0% done | Requires a full recode | No |
 
-*Note: Async refers to how to hte code is being executed. It's referring to asynchronous code. For more info about asynchronous code in Python (asyncio), check out the [docs](https://docs.python.org/3/library/asyncio.html). Note that Rin (and Kumiko) use [Uvloop](https://github.com/MagicStack/uvloop), which makes asyncio 2 times faster than Node.js and just as fast as many Go programs. 
+*Note: Async refers to how to the code is being executed. It's referring to asynchronous code. For more info about asynchronous code in Python (asyncio), check out the [docs](https://docs.python.org/3/library/asyncio.html). Note that Rin (and Kumiko) use [Uvloop](https://github.com/MagicStack/uvloop), which makes asyncio 2 times faster than Node.js and just as fast as many Go programs. 
