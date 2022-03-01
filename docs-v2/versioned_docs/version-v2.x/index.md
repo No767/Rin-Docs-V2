@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Introduction
 
-Welcome! This is the current documentation for Rin, a Discord bot focused on obtaining data from third-party services. For more information regarding supported services, more info is provided [here](./about/supported-services.md).
+Welcome! This is the current documentation for Rin, a Discord bot focused on obtaining data from third-party services with speed. For more information regarding supported services, more info is provided [here](./about/supported-services.md).
 
 ## Contents
 

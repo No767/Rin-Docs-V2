@@ -9,7 +9,7 @@ sidebar_position: 3
 | Hypixel               | Yes            | Completed       | | Yes |
 | Jisho                 | Yes            | Completed |  | Yes |
 | MCSrvStats            | Yes            |    Completed    | | Yes |
-| Instagram             |  Yes           |     Completed  |  | No |
+| Instagram             |  No           |     Completed  | Dropped support for Instgram | No |
 | MyWaifuList           |   Yes          |     Completed   | | Yes |
 | Reddit                |     Yes        | Completed       || Yes |
 | MyAnimeList/Jikan           | Yes           | Complete |    | Yes |
@@ -21,7 +21,7 @@ sidebar_position: 3
 | Twitter               | Yes            | Completed | Uses the v1.1 API, not the v2 API | Yes |
 | YouTube | Yes | Completed | | Yes |
 | Tenor | Yes | Completed | | Yes |
-| MangaDex              | Yes        | 90% done | MangaDex Reader still in the works | Yes |
+| MangaDex              | Yes        | Completed | MangaDex Reader still in the works (pinned for v2.1 or v2.2) | Yes |
 | OpenAI/GPT-3          | Yes  | Completed  | May take longer due to how long it takes for the AI to produce the results | Yes |
 | Twitch                | No             | Not Started/Planned |  | N/A |
 | CurseForge            | No             | Not Started/Planned |  | N/A |

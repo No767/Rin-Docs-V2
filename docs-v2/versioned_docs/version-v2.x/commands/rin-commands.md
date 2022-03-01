@@ -94,472 +94,312 @@ Determine if the player is online or not
 
 Returns some stats about the amount of punishments given on Hypixel
 
+## Fun
 
-## `.rinhelp`
+### `/mylvl`
 
-Provides a list of commands that can be used
-
-**Parameters**: None (optional). Sections can be accessed by typing `.rinhelp [section]`. The section names are displayed on the rinhelp homepage page.
-
-## `.rininfo`
-
-Provides basic info for what the bot does.
+Displays DisQuest Level
 
 **Parameters**: None
 
-## `.valid`
+### `/rank`
 
-Provides some support... This is meant to say you're valid.
-
-**Parameters**: name (usually a name goes better with this)
-
-## `.ping`
-
-Pings the bot to obtain lag in ms.
+Displays total rank for DisQuest
 
 **Parameters**: None
 
-## `.meme`
+### `/globalrank`
 
-Performs a search on memes on reddit. Picks from a certain list of words + meme.
+Shows the global rank for DisQuest
 
-**Parameters**: None
+### `/advice` 
 
-## `.transmeme`
-
-Find trans-related memes
+Returns some advice from Adviceslip
 
 **Parameters**: None
 
-## `.reddit`
+## Misc
 
-Performs a search on reddit.
+### `/jisho`
 
-**Parameters**: keyword/subreddit - For subreddit, include the "r/" prefix as well
+Searches on Jisho and returns the definitions of the word (in Japanese)
 
+**Parameters**: The word to search. It can be both in Japanese or English.
 
-## `.botinfo`
+### `/version`
 
-Shows Bot info.
-
-**Parameters**: None
-
-## `.translate`
-
-**Note that this cmd has been disabled in case if Discord bot verifiers wish to exploit this cmd**
-
-Translates a string or message.
-
-**Parameters**: None. Requires input after running cmd.
-
-## `.botgrowth`
-
-Shows tips on how to grow your server with a bot.
+Returns Rin's current version
 
 **Parameters**: None
 
-## `.prune`
+### `/uptime`
 
-Prunes any spare servers that the bot is not used in. This is an admin command.
-
-**Parameters**: None
-
-## `.broadcast`
-
-Performs a broadcast using the Global chat system. Use with caution.
-
-**Parameters**: None. Requires input after running the cmd.
-
-
-## `.iguserinfo`
-
-Finds and extracts user info for that account
-
-**Parameters**: *Client ID of the user
-
-*Note: In order to find the Client ID, you will need to use [this](https://codeofaninja.com/tools/find-instagram-user-id/) website, and input the username you want. Then the number is labeled under "profilePage".
-
-## `.igusersearch`
-
-Finds users with that username. Will only show the first result of each search.
-
-**Parameters**: The user you are searching for
-
-## `.igtaginfo`
-
-Extracts info about the tag
-
-**Parameters**: The tag that you want to search for
-
-## `.igusernamecheck`
-
-Checks if the Instagram username is taken or not
-
-**Parameters**: The username that you want to check
-
-## `.iguserfeed`
-
-Shows the first post of the selected user's profile feed
-
-**Parameters**: Client ID (Requires Client ID in order to work)
-
-## `.jisho`
-
-Searches up Japanese terms and words along with the English meaning. Uses [Jisho](https://jisho.org/) in order to fetch the data. (Uses the API in order to do so) and JMDict to process the kanji, hiragana, and katakana
-
-**Parameters**: The term that you want to search for. Can be in both Japanese and English
-
-## `.serverinfo`
-
-Shows server info
+Returns the current uptime of Rin
 
 **Parameters**: None
 
-## `.clear`
+### `/botinfo`
 
-Clears number of messages specified from the channel that the command was called in
-
-**Parameters**: The number of messages to clear (int)
-
-## `.javamcsrv`
-
-Alias - `.java`
-
-Provides info about a minecraft server (java) of your choice
-
-**Parameters**: The server's domain name
-
-## `.bedrockmcsrv`
-
-Alias - `.bedrock`
-
-Provides info about a minecraft server (bedrock) of your choice
-
-**Parameters**: The server's domain name
-
-## `.waifu`
-
-Randomly selects a waifu for you
+Returns some info about Rin (stats)
 
 **Parameters**: None
 
-## `.waifupics`
+### `/ping`
 
-Alias - `.wp`
-
-Randomly gives you a waifu using WaifuPic's API
+Check the ping of Rin
 
 **Parameters**: None
 
-## `.advice`
+## Help + Info
 
-Returns some advice from Advice Slip
+### `/help`
 
-**Parameters**: None
+Shows what commands you can use with Rin (literally the same as `/rinhelp`)
 
-## `.spiget-search`
+**Parameters**: None (Optional)
 
-Searches for Spigot resources and returns info regarding the resource info given
+### `/rinhelp`
 
-**Parameters**: What plugin you wish to search. Make sure this is the same name as what is in the title of the actual plugin. For example, if I wanted to search for `FAWE`, I would put `Fast Async WorldEdit` instead
 
-## `.spiget-stats`
+Shows what commands you can use with Rin 
 
-Returns stats for Spiget
+**Parameters**: None (Optional)
 
-**Parameters**: None
+## DeviantArt
 
-## `.spiget-status`
+### `/deviantart-item`
 
-Returns HTTP status of the Spiget API
+Returns the image and some info about that item
 
-**Parameters**: None
+**Parameters**: Deviation ID
 
-## `.hypixel`
+### `/deviantart-newest`
 
-Gain Insight in Hypixel's player data
+Searches up to 5 newly posted art based on the selected category
 
-**Parameters**: UUID of the player
+**Parameters**: Category (Nature, etc)
 
-## `.hypixelcount`
+### `/deviantart-popular`
 
-Obtains the amount of players online within the servers
+Searches up to 5 popular works of art based on the selected category
 
-**Parameters**: None
+**Parameters**: Category
 
-## `.hypixelplayerstatus`
+### `/deviantart-tag-search`
 
-Determines if the player is online or offline
+Returns 5 works of art based on the selected tags
 
-**Parameters**: UUID of the player
+**Parameters**: Tag
 
-## `.skywarsinfo`
+### `/deviantart-user`
 
-Get the position and score of the player within **ranked** skywars
+Returns info about the given DeviantArt user
 
-**Parameters**: UUID of the player
+**Parameters**: DeviantArt Username
 
-## `.jikan-anime`
+## Anime
 
-Alias - `.jk-anime`
+### `/waifu`
 
-Searches on Jikan/MAL and provides info about the given anime
-
-**Parameters**: keyword - The anime that you wish to search for
-
-## `.jikan-manga`
-
-Alias - `.jk-manga`
-
-Searches on Jikan/MAL and provides info about the given manga
-
-**Parameters**: keyword - The manga that you wish to search for
-
-## `.jikan-top`
-
-Alias - `.jk-top`
-
-Returns the top 10 items on Jikan/MAL
-
-**Parameters**: keyword - `anime`, `manga`, `character`, or `people`
-
-## `.jikan-season`
-
-Alias - `.jk-season`
-
-Returns 5 animes within those given years and seasons
-
-**Parameters**: keyword - Year and Season. For example, `2018 winter`
-
-## `.jikan-season-later`
-
-Alias - `.jk-season-later`
-
-Returns 5 animes that are already planned for viewing in the future
+Randomly selects a waifu from MyWaifuList
 
 **Parameters**: None
 
-## `.nb-pride`
+### `/waifupics`
 
-Sends a non-binary flag and a trans flag into the channel
-
-**Parameters**: None
-
-## `.topgg-search`
-
-Searches for a bot and returns info about the given bot
-
-**Parameters**: keyword - The bot's ID
-
-## `.topgg-search-user`
-
-Returns info on a user from Top.gg
-
-**Parameters**: keyword - The User's ID
-
-## `.deviantart-item`
-
-Alias - `.da-item`
-
-Returns info about given Deviation.
-
-**Parameters**: Deviantion UUID
-
-## `.deviantart-newest`
-
-Alias - `.da-newest`
-
-Returns 5 newest deviations given the category
-
-**Parameters**: Category to search. (eg nature, etc)
-
-## `.deviantart-popular`
-
-Alias - `.da-popular`
-
-Returns 5 popular deviations given the category
-
-**Parameters**: Category to search
-
-## `.deviantart-user`
-
-Alias - `.da-user`
-
-Returns info about the given user
-
-**Parameter**: User to search
-
-## `.deviantart-tag-search`
-
-Alias - `.da-tag-search`
-
-Searches for a tag and returns info on it
-
-**Paramter**: Tag to search
-
-## `.pinterest-pin`
-
-Alias - `.pt-pin`
-
-Returns info about the pin that the user logged on has
-
-**Parameter**: Pin ID
-
-## `.pinterest-board`
-
-Alias - `.pt-board`
-
-Returns info about the board that the user logged on has
-
-**Parameter**: Board ID
-
-## `.pinterest-user`
-
-Alias - `.pt-user`
-
-Returns info about the user that is logged on
-
-**Parameter**: None
-
-## `.mylvl`
-
-Returns the current level for the DisQuest cog
+Searches for art from Waifu.pics
 
 **Parameters**: None
 
-## `.globalrank`
+## MAL/Jikan
 
-Alias - `.grank`
+### `/jikan-manga`
 
-Returns the global rank of the player for the DisQuest cog
-
-**Parameters**: None
-
-## `.rank`
-
-Returns the current rank of the user within the server for the DisQuest cog
-
-**Parameters**: None
-
-## `.twitter-search`
-
-Alias - `.ts`
-
-Searches for 5 most recent tweets from the given user
-
-**Parameters**: Twitter Username (without the @ symbol)
-
-## `.twitter-user`
-
-Alias - `.tu`
-
-Returns info about the given user
-
-**Parameters**: Twitter Username (without the @ symbol)
-
-## `.youtube-search`
-
-Alias - `.yt-search`
-
-Returns 5 videos given the search query
-
-**Parameters**: Search Query
-
-## `.youtube-channel`
-
-Alias - `.yt-channel`
-
-Returns info about the given channel
-
-**Parameters**: Channel Name
-
-## `.youtube-playlists`
-
-Alias - `.yt-playlists`
-
-Finds and returns 5 playlists from the given channel
-
-**Parameters**: Channel Name
-
-## `.youtube-comments`
-
-Alias - `.yt-comments`
-
-Returns 5 comments (sorted by time) from the given video
-
-
-**Parameters**: *Video ID
-
-*Note: You can find the Video ID in the link of each youtube video. For example, the video id of `dQw4w9WgXcQ` can be put into a link like this: `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
-
-## `.youtube-video`
-
-Alias -`.yt-video`
-
-Returns info about the given video
-
-**Parameters**: Video ID
-
-## `.mangadex-search`
-
-Alias - `.md-search`
-
-Searches for manga on MangaDex
+Fetches up to 5 mangas from MAL
 
 **Parameters**: Manga Name
 
-## `.mangadex-random`
+### `/jikan-anime`
 
-Alias - `.md-random`
+Fetches a 5 animes from MAL
+
+**Parameters**: Anime Name
+
+### `/jikan-random-anime`
+
+Fetches a random anime from MAL
+
+**Parameters**: None
+
+
+### `/jikan-random-manga`
+
+Fetches a random manga from MAL
+
+**Parameters**: None
+
+### `/jikan-seasons`
+
+Fetches literally ALL of the animes for the given season and year. Note that this may create spam, so use with caution
+
+**Parameters**: Year of the season, Anime season 
+
+### `/jikan-seasons-upcoming`
+
+Returns anime for the  upcoming season (will return ALL of it, may create spam)
+
+**Parameters**: None
+
+### `/jikan-user-profile`
+
+Returns info about a given user on MAL
+
+**Parameters**: MAL Username
+
+## Top.gg
+
+### `/topgg-search`
+
+Searches for a bot and returns details about 1 bot on Top.gg (this will only work if the bot is on Top.gg)
+
+**Parameters**: Discord Bot ID
+
+### `/topgg-search-user`
+
+Searches for a user on Top.gg and returns details about 1 user on Top.gg (this will only work if the user is on Top.gg's Discord server)
+
+**Parameters**: Discord User ID
+
+## MangaDex 
+
+### `/mangadex-search`
+
+Searches for up to 5 mangas on MangaDex
+
+**Parameters**: Manga Name
+
+### `/mangadex-random`
 
 Returns a random manga from MangaDex
 
 **Parameters**: None
 
-## `.mangadex-scanlation-search`
+### `/mangadex-scanlation-search`
 
-Alias - `.md-ss`
-
-Returns info about a scanlation group. This is done via the names, and may be a little bit inaccurate. 
+Returns info about up to 5 scanlation group depending on the given group
 
 **Parameters**: Scanlation Group Name
 
-## `.mangadex-scanlation-id` 
+### `/mangadex-scanlation-id`
 
-Alias - `.md-si` 
+Returns info about a given scanlation group (Via ID)
 
-Returns info about a scanlation group. This is done via the ID given to each scanlation group. 
+**Parameters**: Scanlation Group ID
 
-**Parameters**: *Scanlation Group ID
+### `/mangadex-user`
 
-*Note: You can find the ID of each group by going to groups, and searching for the scanlation group name. For example, this ID (`bbe59625-47af-48d0-be93-dbba6a0b105f`) will return the scanlation group Hachirumi Scans
+Returns info about a user on MangaDex
 
-## `.mangadex-user`
+**Parameters**: MangaDex User ID
 
-Alias - `.md-user` 
+### `/mangadex-author`
 
-Returns info about the given user
+Returns info about an author on MangaDex
 
-**Parameters**: User ID
+**Parameters**: MD Author ID
 
-## `.mangadex-author`
+## YouTube 
 
-Alias - `.md-author`
+### `/youtube-search`
 
-Returns info about the given author
+Returns 5 videos given the search query
 
-**Parameters**: Author Name
+**Parameters**: Search Query
 
-## `.mangadex-author-id` 
+### `/youtube-channel`
 
-Alias - `.md-author-id`
+Returns info about the given YouTube channel
 
-Returns info about the given author via the given author ID
+**Parameters**: YouTube Channel Name
 
-**Parameters**: Author ID
+### `/youtube-playlists`
 
-## `.uptime`
+Returns up to 5 YouTube playlists based on the given YT Channel
 
-Returns the amount of time that Rin has been active
+**Parameters**: YouTube Channel Name
+
+### `/youtube-comments`
+
+Returns up to 5 comments within a given video on YouTube
+
+**Parameters**: YT Video ID
+
+### `/youtube-video`
+
+Provides info about the given video
+
+**Parameters**: YouTube Video ID
+
+## Tenor 
+
+### `/tenor-search-multiple`
+
+Searches for up to 5 gifs on Tenor
+
+**Parameters**: Search Query
+
+### `/tenor-search-one`
+
+Searches for a single gif on Tenor
+
+**Parameters**: Search Term for Gif
+
+### `/tenor-trending`
+
+Returns up to 5 trending gifs from Tenor
 
 **Parameters**: None
+
+### `/tenor-search-suggestions`
+
+Gives a list of suggestions for search terms based on the given search query
+
+**Parameters**: Search Suggestion/Query 
+
+### `/tenor-trending-terms`
+
+Gives a list of trending terms from Tenor
+
+**Parameters**: None
+
+### `/tenor-gif`
+
+Gives a gif based on the given GIF ID
+
+**Parameters**: Tenor GIF ID
+
+### `/tenor-random`
+
+Gives a random gif from Tenor based on the given search query
+
+**Parameters**: Search Term
+
+## OpenAI/GPT-3
+
+### `/openai-complete`
+
+Completes a sentence using OpenAI's GPT-3 AI
+
+**Parameters**: The beginning of the sentence to complete
+
+### `/openai-classify`
+
+Classifies a sentence using OpenAI's GPT-3 AI
+
+**Parameters**: Query (the main sentence to classify), Example, Pos or Neg, Example2, Pos or Neg 
+
+### `/openai-answers`
+
+Forms an answer based on your question
+
+**Parameters**: Question, Example Question, Example Answer, Context for the answer you wrote
