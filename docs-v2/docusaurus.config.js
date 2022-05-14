@@ -10,7 +10,7 @@ const config = {
   tagline: 'The Second Version of The Documentation of Rin',
   url: 'https://docs.rinbot.live',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
   organizationName: 'No767', // Usually your GitHub org/user name.

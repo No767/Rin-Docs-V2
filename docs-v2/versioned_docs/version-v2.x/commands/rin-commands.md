@@ -7,399 +7,379 @@ sidebar_position: 2
 
 ---
 
-## Twitter
+## Command Prefix
 
-### `/twitter-search`
-
-Grabs 5 most recent tweets from the specified user
-
-**Parameters**: Twitter Username
-
-### `/twitter-user`
-
-Grabs info about the specified user
-
-**Parameters**: Twitter Username
-
-## Reddit
-
-
-### `/reddit`
-
-Searches on Reddit
-
-**Parameters**: Subreddit or Search Term
-
-### `/transmeme`
-
-Searches some trans memes on Reddit
-
-**Parameters**: None
-
-### `/meme`
-
-Searches some memes on Reddit
-
-**Parameters**: None
-
-## Minecraft
-
-### `/java`
-
-Obtains Java Server Status
-
-**Parameters**: Server Domain or IP Address
-
-### `/bedrock`
-
-Obtains Bedrock Server Status
-
-**Parameters**: Server Domain or IP Address
-
-## Spigot
-
-### `/spiget-search`
-
-Searches for Minecraft plugins via Spiget and returns information on such plugin
-
-**Parameters**: Plugin Name
-
-### `/spiget-stats`
-
-Returns stats for Spiget (total resources created, etc)
-
-**Parameters**: None
-
-## Hypixel
-
-### `/hypixel-user`
-
-Gain Insight in Hypixel's player data
-
-**Parameter**: Minecraft User UUID
-
-### `/hypixel-count`
-
-Obtain the amount of players online within the servers
-
-**Parameters**: None
-
-### `/hypixel-player-status`
-
-Determine if the player is online or not
-
-**Parameters**: Minecraft User UUID
-
-### `/hypixel-punishments-stats`
-
-Returns some stats about the amount of punishments given on Hypixel
-
-## Fun
-
-### `/mylvl`
-
-Displays DisQuest Level
-
-**Parameters**: None
-
-### `/rank`
-
-Displays total rank for DisQuest
-
-**Parameters**: None
-
-### `/globalrank`
-
-Shows the global rank for DisQuest
-
-### `/advice` 
-
-Returns some advice from Adviceslip
-
-**Parameters**: None
-
-## Misc
-
-### `/jisho`
-
-Searches on Jisho and returns the definitions of the word (in Japanese)
-
-**Parameters**: The word to search. It can be both in Japanese or English.
-
-### `/version`
-
-Returns Rin's current version
-
-**Parameters**: None
-
-### `/uptime`
-
-Returns the current uptime of Rin
-
-**Parameters**: None
-
-### `/botinfo`
-
-Returns some info about Rin (stats)
-
-**Parameters**: None
-
-### `/ping`
-
-Check the ping of Rin
-
-**Parameters**: None
-
-## Help + Info
-
-### `/help`
-
-Shows what commands you can use with Rin (literally the same as `/rinhelp`)
-
-**Parameters**: None (Optional)
-
-### `/rinhelp`
-
-
-Shows what commands you can use with Rin 
-
-**Parameters**: None (Optional)
-
-## DeviantArt
-
-### `/deviantart-item`
-
-Returns the image and some info about that item
-
-**Parameters**: Deviation ID
-
-### `/deviantart-newest`
-
-Searches up to 5 newly posted art based on the selected category
-
-**Parameters**: Category (Nature, etc)
-
-### `/deviantart-popular`
-
-Searches up to 5 popular works of art based on the selected category
-
-**Parameters**: Category
-
-### `/deviantart-tag-search`
-
-Returns 5 works of art based on the selected tags
-
-**Parameters**: Tag
-
-### `/deviantart-user`
-
-Returns info about the given DeviantArt user
-
-**Parameters**: DeviantArt Username
-
+Rin's command prefix is `/`
 ## Anime
 
-### `/waifu`
+### `waifu`
 
 Randomly selects a waifu from MyWaifuList
 
-**Parameters**: None
+### `waifupics`
 
-### `/waifupics`
+Searches for wafius from Waifu.pics
 
-Searches for art from Waifu.pics
+## DeviantArt
 
-**Parameters**: None
+** Command Base: `deviantart`**
 
-## MAL/Jikan
+### `item`
 
-### `/jikan-manga`
+Returns an image and some info about that item 
 
-Fetches up to 5 mangas from MAL
+### `newest`
 
-**Parameters**: Manga Name
+Fetches 5 new art based on the selected category
 
-### `/jikan-anime`
+### `popular`
 
-Fetches a 5 animes from MAL
+Returns 5 popular works of art
 
-**Parameters**: Anime Name
+### `tag-search`
 
-### `/jikan-random-anime`
+Returns 5 works of art based on the tag
 
-Fetches a random anime from MAL
+### `user`
 
-**Parameters**: None
+Obtain data on the user
 
+## Discord.bots.gg
 
-### `/jikan-random-manga`
+** Command Base: `discordbots`**
 
-Fetches a random manga from MAL
+### `search`
 
-**Parameters**: None
+Searches for any Discord Bots listed on discord.bots.gg
 
-### `/jikan-seasons`
+### `id`
 
-Fetches literally ALL of the animes for the given season and year. Note that this may create spam, so use with caution
+Searches for any discord bot listed via the bot's id
 
-**Parameters**: Year of the season, Anime season 
+## FIRST-FRC
 
-### `/jikan-seasons-upcoming`
+** Command Base: `frc`**
 
-Returns anime for the  upcoming season (will return ALL of it, may create spam)
+### `season`
 
-**Parameters**: None
+Returns a season summary for the current FRC season
 
-### `/jikan-user-profile`
+### `events`
 
-Returns info about a given user on MAL
+Lists out the events for the current FRC season
 
-**Parameters**: MAL Username
+### `team-awards`
+
+Returns a list of awards for the team during the current FRC season
+
+### `score`
+
+Returns the FRC teams' scores details for a given event
+
+### `results`
+
+Returns the FRC team's results for a given event
+
+### `top`
+
+Returns the top 10 FRC teams for a given event
+
+### `schedule`
+
+Returns the schedule for a given event
+
+### `alliances`
+
+Returns the alliances for a given event
+
+## Hypixel
+
+** Command Base: `hypixel`**
+
+### `user`
+
+Gain insight in Hypixel's player data
+
+### `count`
+
+Obtain the amount of players online within the servers
+
+### `player-status`
+
+Determine if the player is online or not
+
+### `punishments`
+
+Return some stats about the amount of punishments given
+
+## MangaDex
+
+**Command Base: `mangadex`**
+
+### `search`
+
+Searches for up to 5 manga
+
+### `random`
+
+Gives a random manga
+
+### `scanlation`
+
+Searches for a scanlation group and provides info
+
+### `scanlation-id`
+
+Searches for a scanlation group via ID
+
+### `user`
+
+Returns some info about a user on MangaDex
+
+### `author`
+
+Returns info about an author on mangadex    
+
+## Minecraft
+
+### `java`
+
+Obtains Java server status
+
+### `bedrock`
+
+Obtains bedrock server/Geyser status
+
+## Misc
+
+### `jisho`
+
+Uses Jisho in order to obtain info on a word in Japanese
+
+### `rinhelp`
+
+Rin's main help page
+
+### `help`
+
+Same thing as `rinhelp`
+
+### `invite`
+
+Rin's invite links
+
+### `version`
+
+Checks for the current version of Rin
+
+### `uptime`
+
+Checks for Rin's uptime
+
+### `botinfo`
+
+Displays some info about the bot
+
+### `ping`
+
+Checks the ping for the bot
+
+### `info`
+
+Rin's info page
+
+## Modrinth
+
+** Command Base: `modrinth`**
+
+### `search`
+
+Searches for up to 5 mods on Modrinth
+
+### `mod`
+
+Returns info about the given mod
+
+### `versions`
+
+List out all versions for a mod
+
+### `mod-version`
+
+Display info about a mod version (usually includes changelogs)
+
+### `user`
+
+Displays some info about a user on Modrinth
+
+### `user-projects`
+
+Returns info on the given user's projects
+
+### `project-team`
+
+List out all of the team members for a project
+
+### `team`
+
+Returns the team members within the given team
+
+## MyAnimeList
+
+** Command Base: `jikan`**
+
+### `anime`
+
+Searches on MAL and provides info about the given anime
+
+### `manga`
+
+Searches on MAL and provides info about the given manga
+
+### `random-anime`
+
+Returns a random anime on MAL
+
+### `random-manga`
+
+Returns a random manga on MAL
+
+### `user`
+
+Returns info about a user on MAL
+
+## OpenAI
+
+**Command Base: `openai`**
+
+### `complete`
+
+Completes a sentence using GPT-3
+
+### `classify`
+
+Classifies a sentence into negative or positive
+
+### `answers`
+
+Generates answers written by AI for the given question
+
+## Reddit
+
+**Command Base: `reddit`**
+
+### `search`
+
+Searches on reddit for content
+
+### `new`
+
+Returns 5 new posts from any subreddit
+
+### `comments`
+
+Returns up to 10 comments from a given post ID
+
+### `user`
+
+Provides info about the given Redditor
+
+### `user-comments`
+
+Returns up to 10 comments from a given Redditor
+
+### `hot`
+
+Returns 5 hot posts from any subreddit
+
+### `top`
+
+Returns up to 5 top posts from any subreddit
+
+## Spigot
+
+**Command Base: `spiget`**
+
+### `search`
+
+Searches for up to 5 plugins on Spigot
+
+### `stats`
+
+Returns some stats about Spiget
+
+### `status`
+
+Returns the HTTP status of Spiget
+
+## Tenor
+
+**Command Base: `tenor`**
+
+### `search`
+
+Searches for up to 5 gifs from Tenor
+
+### `search-one`
+
+Searches for 1 gif
+
+### `trending`
+
+Returns the trending gifs on Tenor
+
+### `search-suggestions`
+
+Provides some search suggestions 
+
+### `random`
+
+Returns a random gif based on the search term
 
 ## Top.gg
 
-### `/topgg-search`
+**Command Base: `topgg`**
 
-Searches for a bot and returns details about 1 bot on Top.gg (this will only work if the bot is on Top.gg)
+### `search` 
 
-**Parameters**: Discord Bot ID
+Returns details about a bot searched on Top.gg
 
-### `/topgg-search-user`
+### `user`
 
-Searches for a user on Top.gg and returns details about 1 user on Top.gg (this will only work if the user is on Top.gg's Discord server)
+Returns details about a user searched on Top.gg
 
-**Parameters**: Discord User ID
+## Twitter
 
-## MangaDex 
+**Command Base: `twitter`**
 
-### `/mangadex-search`
+### `search`
 
-Searches for up to 5 mangas on MangaDex
+Grabs up to 5 most recent tweets from the specified user
 
-**Parameters**: Manga Name
+### `user`
 
-### `/mangadex-random`
+Grabs info about the specified user
 
-Returns a random manga from MangaDex
+## YouTube
 
-**Parameters**: None
+**Command Base: `youtube`**
 
-### `/mangadex-scanlation-search`
+### `search`
 
-Returns info about up to 5 scanlation group depending on the given group
+Searches on YouTube and provides back up to 5 videos
 
-**Parameters**: Scanlation Group Name
+### `channel`
 
-### `/mangadex-scanlation-id`
+Returns info about the specified channel
 
-Returns info about a given scanlation group (Via ID)
+### `playlists`
 
-**Parameters**: Scanlation Group ID
+Returns up to 5 YouTube playlists based on the given channel
 
-### `/mangadex-user`
+### `comments`
 
-Returns info about a user on MangaDex
+Returns up to 5 comments within a given video
 
-**Parameters**: MangaDex User ID
+### `video`
 
-### `/mangadex-author`
-
-Returns info about an author on MangaDex
-
-**Parameters**: MD Author ID
-
-## YouTube 
-
-### `/youtube-search`
-
-Returns 5 videos given the search query
-
-**Parameters**: Search Query
-
-### `/youtube-channel`
-
-Returns info about the given YouTube channel
-
-**Parameters**: YouTube Channel Name
-
-### `/youtube-playlists`
-
-Returns up to 5 YouTube playlists based on the given YT Channel
-
-**Parameters**: YouTube Channel Name
-
-### `/youtube-comments`
-
-Returns up to 5 comments within a given video on YouTube
-
-**Parameters**: YT Video ID
-
-### `/youtube-video`
-
-Provides info about the given video
-
-**Parameters**: YouTube Video ID
-
-## Tenor 
-
-### `/tenor-search-multiple`
-
-Searches for up to 5 gifs on Tenor
-
-**Parameters**: Search Query
-
-### `/tenor-search-one`
-
-Searches for a single gif on Tenor
-
-**Parameters**: Search Term for Gif
-
-### `/tenor-trending`
-
-Returns up to 5 trending gifs from Tenor
-
-**Parameters**: None
-
-### `/tenor-search-suggestions`
-
-Gives a list of suggestions for search terms based on the given search query
-
-**Parameters**: Search Suggestion/Query 
-
-### `/tenor-trending-terms`
-
-Gives a list of trending terms from Tenor
-
-**Parameters**: None
-
-### `/tenor-gif`
-
-Gives a gif based on the given GIF ID
-
-**Parameters**: Tenor GIF ID
-
-### `/tenor-random`
-
-Gives a random gif from Tenor based on the given search query
-
-**Parameters**: Search Term
-
-## OpenAI/GPT-3
-
-### `/openai-complete`
-
-Completes a sentence using OpenAI's GPT-3 AI
-
-**Parameters**: The beginning of the sentence to complete
-
-### `/openai-classify`
-
-Classifies a sentence using OpenAI's GPT-3 AI
-
-**Parameters**: Query (the main sentence to classify), Example, Pos or Neg, Example2, Pos or Neg 
-
-### `/openai-answers`
-
-Forms an answer based on your question
-
-**Parameters**: Question, Example Question, Example Answer, Context for the answer you wrote
+Based on the video ID, returns info about the video

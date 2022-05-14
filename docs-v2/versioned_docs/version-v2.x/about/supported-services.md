@@ -32,4 +32,5 @@ sidebar_position: 3
 | Discord.bots.gg              |  Yes           | Completed | | Yes |
 | Modrinth        |  Yes           | Completed | | Yes |
 
+
 *Note: Async refers to how to the code is being executed. It's referring to asynchronous code. For more info about asynchronous code in Python (asyncio), check out the [docs](https://docs.python.org/3/library/asyncio.html). Note that Rin (and Kumiko) use [Uvloop](https://github.com/MagicStack/uvloop), which makes asyncio 2 times faster than Node.js and just as fast as many Go programs. 
