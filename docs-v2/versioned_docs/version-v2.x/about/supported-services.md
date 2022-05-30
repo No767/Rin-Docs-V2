@@ -22,7 +22,6 @@ sidebar_position: 3
 | YouTube | Yes | Completed | | Yes |
 | Tenor | Yes | Completed | | Yes |
 | MangaDex              | Yes        | Completed | MangaDex Reader still in the works | Yes |
-| OpenAI/GPT-3          | Yes  | Completed  | May take longer due to how long it takes for the AI to produce the results | Yes |
 | Twitch                | No             | Not Started/Planned |  | N/A |
 | Kitsu | No | Not Started/Planned | | N/A |
 | AniList | No | Not Started/Planned | Will have to use GraphQL for AniList | N/A |
