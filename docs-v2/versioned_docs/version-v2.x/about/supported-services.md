@@ -11,7 +11,7 @@ sidebar_position: 3
 | MCSrvStats            | Yes            |    Completed    | | Yes | Yes
 | MyWaifuList           |   Yes          |     Completed   | | Yes | Yes
 | Reddit                |     Yes        | Completed       || Yes | Yes
-| MyAnimeList           | Yes           | Complete |    | Yes | Yes
+| MyAnimeList/MAL           | Yes           | Completed |    | Yes | Yes
 | Advice Slip | Yes | Completed | | Yes | Yes
 | Waifu.Pics | Yes | Completed | | Yes | Yes 
 | Spigot | Yes | Completed | | Yes | Yes
@@ -27,7 +27,7 @@ sidebar_position: 3
 | Modrinth        |  Yes           | Completed | | Yes | Yes
 | GitHub       |  Yes           | Completed | | Yes | Yes
 | Twitch                | No             | Not Started/Planned |  | N/A | N/A
-| AniList | No | Planned | Will have to use GraphQL for AniList | N/A | N/A 
+| AniList | No | 50% complete | Will have to use GraphQL for AniList | Yes | Yes
 | Spotify               |  No           | 0% done | Requires a full recode | N/A | N/A
 
 
