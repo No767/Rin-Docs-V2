@@ -28,7 +28,6 @@ sidebar_position: 3
 | GitHub       |  Yes           | Completed | | Yes | Yes
 | Twitch                | No             | Not Started/Planned |  | N/A | N/A
 | AniList | Yes | Completed | Uses GraphQL instead of REST | Yes | Yes
-| Spotify               |  No           | 0% done | Requires a full recode | N/A | N/A
 
 
 *Note: Async refers to how to the code is being executed. It's referring to asynchronous code. For more info about asynchronous code in Python (asyncio), check out the [docs](https://docs.python.org/3/library/asyncio.html). Note that Rin (and Kumiko) use [Uvloop](https://github.com/MagicStack/uvloop), which makes asyncio 2 times faster than Node.js and just as fast as many Go programs. 
