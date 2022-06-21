@@ -27,7 +27,7 @@ sidebar_position: 3
 | Modrinth        |  Yes           | Completed | | Yes | Yes
 | GitHub       |  Yes           | Completed | | Yes | Yes
 | Twitch                | No             | Not Started/Planned |  | N/A | N/A
-| AniList | No | 50% complete | Will have to use GraphQL for AniList | Yes | Yes
+| AniList | Yes | Completed | Uses GraphQL instead of REST | Yes | Yes
 | Spotify               |  No           | 0% done | Requires a full recode | N/A | N/A
 
 
