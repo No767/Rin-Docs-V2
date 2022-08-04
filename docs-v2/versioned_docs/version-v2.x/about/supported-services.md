@@ -26,7 +26,7 @@ sidebar_position: 3
 | Discord.bots.gg              |  Yes           | Completed | | Yes | Yes
 | Modrinth        |  Yes           | Completed | | Yes | Yes
 | GitHub       |  Yes           | Completed | | Yes | Yes
-| Twitch                | No             | Not Started/Planned |  | N/A | N/A
+| Twitch                | Yes             | Completed |  | Yes | Yes
 | AniList | Yes | Completed | Uses GraphQL instead of REST | Yes | Yes
 
 
