@@ -19,7 +19,7 @@ Gives some advice from AdviceSlip
 
 ## AniList
 
-** Command Base: `anilist`**
+**Command Base: `anilist`**
 
 ### `search anime`
 Searches up to 25 animes on AniList
@@ -36,7 +36,7 @@ Searches up to 25 actors on AniList
 
 ## Blue Alliance
 
-** Command Base: `blue-alliance` **
+**Command Base: `blue-alliance` **
 
 ### `matches team`
 Returns the general info for each match that a team was in during the given event
@@ -52,7 +52,7 @@ Returns the event ranking of an event
 
 ## Discord.bots.gg
 
-** Command Base: `discordbots`**
+**Command Base: `discordbots`**
 
 ### `search`
 
@@ -60,7 +60,7 @@ Searches for any Discord Bots listed on discord.bots.gg
 
 ## FIRST-FRC
 
-** Command Base: `frc`**
+**Command Base: `frc`**
 
 ### `season`
 
@@ -92,7 +92,7 @@ Returns the alliances within a given event
 
 ## GitHub
 
-** Command Base: `github`**
+**Command Base: `github`**
 
 ### `releases list`
 
@@ -118,7 +118,7 @@ Gets all issues from a repo
 Gets info about one issue on any repo on GitHub
 ## Hypixel
 
-** Command Base: `hypixel`**
+**Command Base: `hypixel`**
 
 ### `count`
 
@@ -197,7 +197,7 @@ Rin's info page
 
 ## Modrinth
 
-** Command Base: `modrinth`**
+**Command Base: `modrinth`**
 
 ### `search`
 
@@ -221,7 +221,7 @@ Returns info on the given user's projects
 
 ## MyAnimeList
 
-** Command Base: `mal`**
+**Command Base: `mal`**
 
 ### `search anime`
 
@@ -323,7 +323,7 @@ Returns details about a bot searched on Top.gg
 
 ## Twitch
 
-** Command Base: `twitch` **
+**Command Base: `twitch` **
 
 ### `search channels`
 
