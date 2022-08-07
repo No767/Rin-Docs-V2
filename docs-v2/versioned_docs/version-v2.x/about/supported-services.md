@@ -9,13 +9,12 @@ sidebar_position: 3
 | Hypixel               | Yes            | Completed       | | Yes | Yes | 
 | Jisho                 | Yes            | Completed |  | Yes | Yes |
 | MCSrvStats            | Yes            |    Completed    | | Yes | Yes
-| MyWaifuList           |   Yes          |     Completed   | | Yes | Yes
 | Reddit                |     Yes        | Completed       || Yes | Yes
 | MyAnimeList/MAL           | Yes           | Completed |    | Yes | Yes
 | Advice Slip | Yes | Completed | | Yes | Yes
 | Waifu.Pics | Yes | Completed | | Yes | Yes 
+| Waifu.im | Yes | Completed | | Yes | Yes 
 | Spigot | Yes | Completed | | Yes | Yes
-| DeviantArt               | Yes         | Completed      | Service not in use due to tokens | Yes | Yes
 | Top.gg               | Yes            | Completed      | | Yes | Yes
 | Twitter               | Yes            | Completed | | Yes | Yes
 | YouTube | Yes | Completed | | Yes | Yes
@@ -26,7 +25,7 @@ sidebar_position: 3
 | Discord.bots.gg              |  Yes           | Completed | | Yes | Yes
 | Modrinth        |  Yes           | Completed | | Yes | Yes
 | GitHub       |  Yes           | Completed | | Yes | Yes
-| Twitch                | No             | Not Started/Planned |  | N/A | N/A
+| Twitch                | Yes             | Completed |  | Yes | Yes
 | AniList | Yes | Completed | Uses GraphQL instead of REST | Yes | Yes
 
 
